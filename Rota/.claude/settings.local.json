@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python main.py:*)",
+      "Bash(dir /s /b *.py)",
+      "Bash(findstr:*)",
+      "Bash(sqlite3:*)",
+      "Bash(python3:*)",
+      "Bash(python:*)",
+      "Bash(dir:*)",
+      "Bash(timeout 3 echo:*)",
+      "Bash(timeout 30 python:*)",
+      "Bash(tee:*)",
+      "Bash(timeout 15 python:*)",
+      "Bash(timeout 20 python:*)",
+      "Bash(timeout 10 python:*)",
+      "Bash(timeout 120 python:*)",
+      "Bash(ls:*)",
+      "Bash(find:*)",
+      "Bash(grep:*)",
+      "Bash(rm:*)",
+      "Bash(wc:*)",
+      "Bash(timeout 10 echo:*)",
+      "Bash(timeout 15 echo:*)",
+      "Bash(timeout 5 echo:*)",
+      "Bash(timeout 5 python:*)",
+      "Bash(timeout 3 python:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
